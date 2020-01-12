@@ -1,0 +1,34 @@
+<html>
+<head>
+<script language="JavaScript"><!--
+function extract() {
+alert('file');
+//    if (document.all)
+	{
+	alert('file a');
+        document.all['file'].innerHTML = document.frames[0].document.all(0).outerHTML;
+	}
+alert('get here also');
+}
+//--></script>
+</head>
+
+<body onLoad="extract()">
+
+<p>
+text before...
+
+<iframe src="text.txt" style="display:none">
+</iframe>
+
+<span id="file">
+</span>
+
+<ilayer src="text.txt">
+</ilayer>
+
+...text after
+</p>
+
+</body>
+</html>
