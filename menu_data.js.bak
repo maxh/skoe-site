@@ -104,8 +104,8 @@ aI("text=Bergville School As I Remember It;url=writeups/Bergville School as I re
 }
 with(milonic=new menuname("Books")){
 style=menuStyle;
-aI("text=Skoe Saga - Bena Skoe;url=books/Skoe Saga.pdf;");
-aI("text=My Life - R.C. Skoe;url=books/My Life.pdf;");
+  aI("text=Skoe Saga - Bena Skoe;url=Skoe Saga/Skoe Saga.pdf;");
+  aI("text=My Life - R.C. Skoe;url=It's my Life Ray Skoe/My Life.pdf;");
 }
 
 
@@ -162,4 +162,3 @@ aI("text=Standing Stavechurches;url=http://www.stavkirke.org/stavkirker_kart.htm
 
 
 drawMenus();
-
