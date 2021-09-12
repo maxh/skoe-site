@@ -68,6 +68,7 @@ with ((milonic = new menuname("Children"))) {
 
 with ((milonic = new menuname("Pictures"))) {
   style = menuStyle;
+  aI("text=Skoe Family Crest;url=Pictures/skoe_family_crest.png;");
   aI("text=Graduation Pictures as exe file;url=Pictures/graduation.exe;");
   aI("text=Wedding Pictures as exe file;url=Pictures/wedding.exe;");
   aI(
